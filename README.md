@@ -17,7 +17,7 @@ Rules of the game :-
 
 I found the dictionary from https://github.com/dwyl/english-words/blob/master/words_alpha.txt
 
-Tested on macos VS Code.
+Tested on macos VS Code. Runtime is around 1 second on my Macbook Air.
 
 testuser@Mohammads-MacBook-Air word-hunt % ./word-hunt  
 51  
