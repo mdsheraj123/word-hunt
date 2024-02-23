@@ -67,7 +67,8 @@ bool compare(tuple<string,int,int,int,int>& a, tuple<string,int,int,int,int>& b)
     return get<0>(a).size()>get<0>(b).size();
 }
 
-std::istream& safeGetline(std::istream& is, std::string& t) { // To be line ending independent
+// To be line ending independent
+std::istream& safeGetline(std::istream& is, std::string& t) {
     t.clear();
 
     // The characters in the stream are read one-by-one using a std::streambuf.

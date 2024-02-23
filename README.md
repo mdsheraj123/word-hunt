@@ -19,7 +19,9 @@ I found the dictionary from https://github.com/dwyl/english-words/blob/master/wo
 
 Tested on macos VS Code. Runtime is around 1 second on my Macbook Air.
 
-testuser@Mohammads-MacBook-Air word-hunt % ./word-hunt  
+% g++ -std=c++11 word-hunt.cpp -o word-hunt
+
+% ./word-hunt  
 51  
 cherish start x=8 y=8 end x=2 y=8  
 prudent start x=3 y=6 end x=3 y=0  
